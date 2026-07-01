@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dilana Damsath — Data Science Student &amp; Builder</title>
+<meta name="description" content="Portfolio of Dilana Damsath, Data Science student at SLTC Campus. UI/UX design, front-end development, and AI/ML." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Custom cursor -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader">
+  <div class="preloader-inner">
+    <span class="preloader-mark">DD</span>
+    <div class="preloader-bar-track">
+      <div class="preloader-bar-fill" id="preloaderFill"></div>
+    </div>
+    <span class="preloader-percent" id="preloaderPercent">00</span>
+  </div>
+</div>
+
+<!-- Noise / grid overlay -->
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<div class="page-shell" id="pageShell">
+
+  <!-- Nav -->
+  <header class="nav">
+    <a href="#top" class="nav-logo" aria-label="Dilana Damsath — home">
+      <span class="logo-mark">D&#8203;D</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about" data-label="01">About</a>
+      <a href="#skills" data-label="02">Skills</a>
+      <a href="#work" data-label="03">Focus</a>
+      <a href="#contact" data-label="04">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" aria-pressed="false">
+        <span class="theme-toggle-track">
+          <span class="theme-toggle-thumb"></span>
+        </span>
+      </button>
+      <a class="btn btn-outline btn-sm" href="https://github.com/" target="_blank" rel="noopener" id="githubBtnNav">
+        GitHub <span class="arrow">&#8599;</span>
+      </a>
+    </div>
+
+    <button class="nav-burger" id="navBurger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Focus</a>
+    <a href="#contact">Contact</a>
+    <a href="https://github.com/" target="_blank" rel="noopener">GitHub &#8599;</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="hero-bg-type" aria-hidden="true">Data&nbsp;Science</div>
+
+    <div class="hero-grid">
+      <div class="hero-left">
+        <p class="eyebrow reveal">
+          <span class="eyebrow-dot"></span>
+          Data Science Student — SLTC Campus
+        </p>
+
+        <h1 class="hero-title reveal">
+          Hi, I&rsquo;m<br />
+          <span class="hero-title-name">Dilana.</span>
+        </h1>
+
+        <p class="hero-sub reveal">
+          I study data, build interfaces, and prototype ideas — moving between
+          <span class="hl">AI / ML</span>, <span class="hl">product design</span>,
+          and <span class="hl">front-end code</span>.
+        </p>
+
+        <div class="hero-stats reveal">
+          <div class="stat">
+            <span class="stat-value">2027</span>
+            <span class="stat-label">Expected Graduate</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">02</span>
+            <span class="stat-label">Languages Spoken</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">04</span>
+            <span class="stat-label">Core Skill Areas</span>
+          </div>
+        </div>
+
+        <div class="hero-cta reveal">
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+          <a href="https://github.com/" target="_blank" rel="noopener" class="btn btn-ghost" id="githubBtnHero">
+            View GitHub <span class="arrow">&#8599;</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <div class="portrait-frame">
+          <img src="assets/profile.jpg" alt="Portrait of Dilana Damsath" class="portrait-img" />
+          <div class="portrait-tag portrait-tag-top">
+            <span class="dot-live"></span> Building
+          </div>
+          <div class="portrait-tag portrait-tag-bottom">
+            Colombo, Sri Lanka
+          </div>
+        </div>
+        <div class="portrait-backdrop" aria-hidden="true"></div>
+      </div>
+    </div>
+
+    <div class="scroll-cue reveal">
+      <span class="scroll-line"></span>
+      Scroll
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">/ 01 — About</span>
+      <h2 class="section-title">Curious by default,<br />deliberate by practice.</h2>
+    </div>
+
+    <div class="about-grid">
+      <p class="about-lead reveal">
+        I&rsquo;m a Data Science student at <strong>SLTC Campus</strong>, spending
+        most of my time at the intersection of numbers and interfaces. I like
+        pulling structure out of messy data as much as I like polishing the
+        pixel that sits on top of it.
+      </p>
+
+      <div class="about-details reveal">
+        <div class="detail-row">
+          <span class="detail-label">Currently</span>
+          <span class="detail-value">Data Science Student, SLTC Campus</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">Interested in</span>
+          <span class="detail-value">AI &amp; Machine Learning, Entrepreneurship</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">Also does</span>
+          <span class="detail-value">UI/UX Design, Front-end Development, Graphic Design</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label">Languages</span>
+          <span class="detail-value">Sinhala (fluent), English (proficient)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">/ 02 — Skills</span>
+      <h2 class="section-title">What I bring to a project.</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <span class="skill-index">01</span>
+        <h3 class="skill-name">UI / UX Design</h3>
+        <p class="skill-desc">Wireframes to polished flows — thinking in components, hierarchy, and how a screen should feel to use.</p>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-index">02</span>
+        <h3 class="skill-name">Front-end Development</h3>
+        <p class="skill-desc">Turning designs into responsive, accessible interfaces with clean, maintainable code.</p>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-index">03</span>
+        <h3 class="skill-name">Problem Solving</h3>
+        <p class="skill-desc">Breaking down ambiguous problems — data or design — into steps that actually move things forward.</p>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-index">04</span>
+        <h3 class="skill-name">Graphic Design</h3>
+        <p class="skill-desc">Visual communication that stays legible first and decorative second.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Focus / Interests -->
+  <section class="work" id="work">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">/ 03 — Focus</span>
+      <h2 class="section-title">Where my attention goes.</h2>
+    </div>
+
+    <div class="focus-list">
+      <div class="focus-row reveal">
+        <span class="focus-tag">Artificial Intelligence</span>
+        <p class="focus-copy">Following how machine learning models are built, trained, and shipped — from first principles up.</p>
+      </div>
+      <div class="focus-row reveal">
+        <span class="focus-tag">Machine Learning</span>
+        <p class="focus-copy">Applying data science coursework to real datasets, models, and small experiments.</p>
+      </div>
+      <div class="focus-row reveal">
+        <span class="focus-tag">Entrepreneurship</span>
+        <p class="focus-copy">Interested in how technical ideas become products people actually want to use.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="section-head reveal">
+      <span class="section-eyebrow">/ 04 — Contact</span>
+      <h2 class="section-title">Let&rsquo;s talk.</h2>
+      <p class="section-sub">Have a project, an idea, or just want to say hi? Send a message — it goes straight to my inbox.</p>
+    </div>
+
+    <!--
+      FORMSPREE SETUP (required before this form works):
+      1. Go to https://formspree.io and sign up for a free account.
+      2. Create a new form and copy the endpoint it gives you
+         (looks like https://formspree.io/f/xxxxxxxx).
+      3. Replace YOUR_FORM_ID below with that ID — both the form's
+         action attribute AND the FORMSPREE_ENDPOINT constant at the
+         top of script.js need to match.
+    -->
+    <form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/xdarweyy" method="POST" autocomplete="off">
+      <div class="field">
+        <label for="email">Your email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+      </div>
+
+      <div class="form-footer">
+        <button type="submit" class="btn btn-primary" id="submitBtn">
+          <span class="btn-text">Send message</span>
+          <span class="btn-spinner" aria-hidden="true"></span>
+        </button>
+        <span class="form-status" id="formStatus" role="status" aria-live="polite"></span>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <span class="footer-name">Dilana Damsath</span>
+      <a href="#top" class="footer-back">Back to top &#8593;</a>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Dilana Damsath. Built from scratch.</span>
+      <a href="https://github.com/" target="_blank" rel="noopener" id="githubBtnFooter">GitHub &#8599;</a>
+    </div>
+  </footer>
+
+</div>
+
+<!-- Toast for form submission -->
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
