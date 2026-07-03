@@ -71,8 +71,15 @@ GitHub shows the exact URL at the top of the Pages settings once it's built.
 ## Before you publish
 
 - **Add your real GitHub URL** for the profile buttons. Open `index.html`
-  and search for `href="https://github.com/"` (nav, hero, and footer — three
-  spots) and replace with `https://github.com/your-username`.
+  and search for `href="https://github.com/"` (nav, hero, mobile menu, and
+  footer) and replace with `https://github.com/your-username`.
+- **Add your real LinkedIn URL.** Search `index.html` for
+  `YOUR_LINKEDIN_ID` (nav, hero, mobile menu, and footer) and replace with
+  your profile, e.g. `https://www.linkedin.com/in/dilana-damsath`.
+- **Add your CV.** Drop your resume PDF into the `assets` folder and name it
+  exactly `Dilana-Damsath-CV.pdf` (or update the three
+  `assets/Dilana-Damsath-CV.pdf` references in `index.html` — hero, mobile
+  menu, and footer — to match whatever filename you use).
 - **Double-check the Formspree ID** is correctly pasted in both `index.html`
   and `script.js` — a mismatch or leftover `YOUR_FORM_ID` will make the form
   fail silently.

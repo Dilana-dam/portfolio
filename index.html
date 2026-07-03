@@ -53,6 +53,9 @@
           <span class="theme-toggle-thumb"></span>
         </span>
       </button>
+      <a class="btn btn-outline btn-sm" href="https://www.linkedin.com/in/YOUR_LINKEDIN_ID" target="_blank" rel="noopener" id="linkedinBtnNav">
+        LinkedIn <span class="arrow">&#8599;</span>
+      </a>
       <a class="btn btn-outline btn-sm" href="https://github.com/" target="_blank" rel="noopener" id="githubBtnNav">
         GitHub <span class="arrow">&#8599;</span>
       </a>
@@ -69,7 +72,9 @@
     <a href="#skills">Skills</a>
     <a href="#work">Focus</a>
     <a href="#contact">Contact</a>
+    <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_ID" target="_blank" rel="noopener">LinkedIn &#8599;</a>
     <a href="https://github.com/" target="_blank" rel="noopener">GitHub &#8599;</a>
+    <a href="assets/Dilana-Damsath-CV.pdf" download>Download CV &#8595;</a>
   </div>
 
   <!-- Hero -->
@@ -111,6 +116,12 @@
 
         <div class="hero-cta reveal">
           <a href="#contact" class="btn btn-primary">Get in touch</a>
+          <a href="assets/Dilana-Damsath-CV.pdf" download class="btn btn-outline">
+            Download CV <span class="arrow">&#8595;</span>
+          </a>
+          <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_ID" target="_blank" rel="noopener" class="btn btn-ghost" id="linkedinBtnHero">
+            LinkedIn <span class="arrow">&#8599;</span>
+          </a>
           <a href="https://github.com/" target="_blank" rel="noopener" class="btn btn-ghost" id="githubBtnHero">
             View GitHub <span class="arrow">&#8599;</span>
           </a>
@@ -244,7 +255,7 @@
          action attribute AND the FORMSPREE_ENDPOINT constant at the
          top of script.js need to match.
     -->
-    <form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/xdarweyy" method="POST" autocomplete="off">
+    <form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" autocomplete="off">
       <div class="field">
         <label for="email">Your email</label>
         <input type="email" id="email" name="email" placeholder="you@example.com" required />
@@ -272,7 +283,11 @@
     </div>
     <div class="footer-bottom">
       <span>&copy; <span id="year"></span> Dilana Damsath. Built from scratch.</span>
-      <a href="https://github.com/" target="_blank" rel="noopener" id="githubBtnFooter">GitHub &#8599;</a>
+      <div class="footer-links">
+        <a href="assets/Dilana-Damsath-CV.pdf" download>CV &#8595;</a>
+        <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_ID" target="_blank" rel="noopener" id="linkedinBtnFooter">LinkedIn &#8599;</a>
+        <a href="https://github.com/" target="_blank" rel="noopener" id="githubBtnFooter">GitHub &#8599;</a>
+      </div>
     </div>
   </footer>
 
