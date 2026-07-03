@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ---------------- Contact form → Formspree ---------------- */
   // Must match the form's `action` attribute in index.html.
-  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID';
+  const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xdarweyy';
 
   const form = document.getElementById('contactForm');
   const submitBtn = document.getElementById('submitBtn');
